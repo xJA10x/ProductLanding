@@ -8,7 +8,7 @@ main styles(base styles)
 
   --primary-color: #333;
   --secondary-color: #444;
-  --overaly-color: rgba(0,0,0,0.7);
+  --overlay-color: rgba(0,0,0,0.7);
 
 }
 
@@ -147,9 +147,25 @@ Section-a styles
 
 }
 
+/****************************
+
+Section-b styles
+
+****************************/
+
+.section-b {
+
+  position: relative;
+  background: url('../img/section-b.jpg') no-repeat bottom center/cover;
+  height: 600px;
+
+
+
+}
+
 /***********************************
 
-Utilities
+Utilities styles
 
 *************************************/
 
@@ -163,6 +179,23 @@ Utilities
   cursor: pointer;
   font-size: 1.1rem;
   border-radius: 30px;
+
+}
+
+.btn:hover {
+
+  background: var(--secondary-color);
+
+}
+
+.overlay {
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--overlay-color);
 
 
 }
