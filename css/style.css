@@ -159,6 +159,40 @@ Section-b styles
   background: url('../img/section-b.jpg') no-repeat bottom center/cover;
   height: 600px;
 
+}
+
+.section-b-inner {
+
+  color: #fff;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  max-width: 860px;
+  padding: 5rem 0;
+
+}
+
+.section-b-inner h3 {
+
+  font-size: 2rem;
+
+}
+
+.section-b-inner h2 {
+
+  font-size: 5rem;
+  margin-top: 1rem;
+
+}
+
+.section-b-inner p {
+
+  font-size: 1.5rem;
+  margin-top: 1rem;
 
 
 }
@@ -196,6 +230,5 @@ Utilities styles
   height: 100%;
   width: 100%;
   background-color: var(--overlay-color);
-
 
 }
